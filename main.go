@@ -17,6 +17,6 @@ func main() {
 	//go printMessage("Hello from Goroutine")
 	//
 	//printMessage("Hello from Main")
-	study.FlowStudy()
-
+	//study.MapStudy()
+	study.FuncStudyMain()
 }
