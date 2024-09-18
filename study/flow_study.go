@@ -57,6 +57,7 @@ A:
 
 	for a := 0; a < 10; a++ {
 		if a == 5 {
+
 			break A
 			goto B
 
@@ -64,6 +65,6 @@ A:
 	}
 
 B:
-	fmt.Println("B代码块")
+	fmt.Println("跳转到B代码块")
 
 }
