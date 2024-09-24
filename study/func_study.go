@@ -4,9 +4,13 @@ import "fmt"
 
 // 当多个参数（连续）类型一致时，只需要在最后一个参数后标明类型
 func add(x, y int) (result int) {
-	// 定制了返回值后就已经声明了同名变量，复制后return可以不用写返回值
+	// 定制了返回值后就已经声明了同名变量，赋值后return可以不用写返回值
 	result = x + y
+	defer func() {
+		fmt.Println("defer 函数调用")
+	}()
 	return
+
 }
 
 // 声明不定项参数

@@ -20,4 +20,8 @@ func MapStudy() {
 	for k, v := range m1 {
 		fmt.Println(k, v)
 	}
+
+	var m3 = make(map[string]string)
+	m3["name"] = "迪丽热巴"
+	fmt.Println(m3["name"])
 }

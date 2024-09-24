@@ -5,13 +5,13 @@ import (
 )
 
 type Student struct {
-	Name string
-	Age  int
+	name string
+	age  int
 }
 
 func NewStudent(name string, age int) Student {
-	return Student{Name: name,
-		Age: age}
+	return Student{name: name,
+		age: age}
 }
 
 func main() {
