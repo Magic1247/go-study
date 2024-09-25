@@ -31,5 +31,6 @@ func main() {
 	//study.SliceStudyMain()
 	//study.RangeStudyMain()
 	//fmt.Println(study.RecursionStudyMain(10))
-	study.ErrorStudyMain()
+	//study.ErrorStudyMain()
+	study.GoRoutineStudyMain()
 }
